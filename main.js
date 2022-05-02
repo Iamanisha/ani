@@ -83,7 +83,6 @@ let editTask = (e) => {
     date: dateInput.value,
     description: textarea.value,
   });
-  resetForm();
 };
 
 let resetForm = () => {
